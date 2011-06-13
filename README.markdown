@@ -535,7 +535,7 @@ end
 
 #### Not as good
 
-When there are multiple conditions, it using the return value of `=` doesn't
+When there are multiple conditions, using the return value of `=` doesn't
 work quite as well
 
 ```ruby
