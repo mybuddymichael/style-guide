@@ -392,7 +392,7 @@ end
 
 * Use when x; ... for one-line cases.
 
-* Use &&/|| for boolean expressions, and/or for control flow.  (Rule
+* Use &&/|| for boolean expressions, and/or for control flow. (Rule
   of thumb: If you have to use outer parentheses, you are using the
   wrong operators.)
 
@@ -431,7 +431,7 @@ Avoid placing `do...end` on the same line
 
 * Multiline {...} is fine: having
   different statement endings (} for blocks, end for if/while/...)
-  makes it easier to see what ends where.  But use do...end for
+  makes it easier to see what ends where. But use do...end for
   "control flow" and "method definitions" (e.g. in Rakefiles and
   certain DSLs.)
 
@@ -575,7 +575,7 @@ def amount
 end
 ```
 
-* Use non-OO regexps (they won't make the code better).  Freely use
+* Use non-OO regexps (they won't make the code better). Freely use
   =~, $0-9, $~, $` and $' when needed.
 
 
@@ -584,12 +584,12 @@ Naming
 
 * Use snake_case for methods.
 
-* Use CamelCase for classes and modules.  (Keep acronyms like HTTP,
+* Use CamelCase for classes and modules. (Keep acronyms like HTTP,
   RFC, XML uppercase.)
 
 * Use SCREAMING_SNAKE_CASE for other constants.
 
-* The length of an identifier determines its scope.  Use one-letter
+* The length of an identifier determines its scope. Use one-letter
   variables for short block/method parameters, according to this
   scheme:
 
@@ -649,7 +649,7 @@ The rest
 
 * Write ruby -w safe code.
 
-* Avoid hashes-as-optional-parameters.  Does the method do too much?
+* Avoid hashes-as-optional-parameters. Does the method do too much?
 
 * Avoid long methods.
 
