@@ -347,7 +347,7 @@ elements = [1,2,3,21,45]
 
 ### _No semicolons_
 
-### Use spaced around { and before }
+### Use spaces around { and before }
 
 ### No spaces after `(` and before `)`
 
