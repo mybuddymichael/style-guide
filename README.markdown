@@ -402,7 +402,7 @@ end
   when calling "functions", i.e. when you use the return value in the
   same line.
 
-    x = Math.sin(y)
+    x = Math.sin(y)  
     array.delete e
 
 ### Prefer `{...}` over `do...end`
