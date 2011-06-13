@@ -361,7 +361,7 @@ elements = [1,2,3,21,45]
 * Use an empty line before the return value of a method (unless it
   only has one line), and an empty line between defs.
 
-* Use RDoc and its conventions for API documentation.  Don't put an
+* Use RDoc and its conventions for API documentation. Don't put an
   empty line between the comment block and the def.
 
 * Use empty lines to break up a long method into logical paragraphs.
@@ -396,7 +396,7 @@ end
   of thumb: If you have to use outer parentheses, you are using the
   wrong operators.)
 
-* Avoid multiline ?:, use if.
+* Avoid multiline ternary operator (` ? : `), use `if`.
 
 * Suppress superfluous parentheses when calling methods, but keep them
   when calling "functions", i.e. when you use the return value in the
