@@ -386,9 +386,9 @@ def add user
 end
 ```
 
-* Never use for, unless you exactly know why.
+* Never use `for`, unless you exactly know why.
 
-* Never use then.
+* Never use `then`.
 
 * Use when x; ... for one-line cases.
 
@@ -429,9 +429,9 @@ Avoid placing `do...end` on the same line
 1.upto(10).select do |n| n % 2 == 1 end
 ```
 
-* Multiline {...} is fine: having
-  different statement endings (} for blocks, end for if/while/...)
-  makes it easier to see what ends where. But use do...end for
+* Multiline `{...}` is fine: having
+  different statement endings (`}` for blocks, `end` for `if`/`while`/...)
+  makes it easier to see what ends where. But use `do...end` for
   "control flow" and "method definitions" (e.g. in Rakefiles and
   certain DSLs.)
 
