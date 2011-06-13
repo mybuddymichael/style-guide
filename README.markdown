@@ -626,10 +626,22 @@ Comments
 --------
 
 * Comments longer than a word are capitalized and use punctuation.
-  *Never* use two spaces after periods. If you "think this is wrong",
-  [let me Google that for you](http://lmgtfy.com/?q=two+spaces+after+period).
 
 * Avoid superfluous comments.
+
+### Spaces after periods
+
+*Never* use two spaces after a period. If you "think this is wrong",
+[let me Google that for you](http://lmgtfy.com/?q=two+spaces+after+period).
+
+There is one exception to this rule. If you are writing your comments to later
+be rendered through Markdown, you can use two spaces followed by a line break,
+to create a line break.
+
+```ruby
+  # Here's a comment.##
+  # I wanted to jump to the next line.
+```
 
 
 The rest
