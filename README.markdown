@@ -636,7 +636,7 @@ Comments
 
 There is one exception to this rule. If you are writing your comments to later
 be rendered through Markdown, you can use two spaces followed by a line break,
-to create a line break.
+to create a line break. Further reading: [Markdown syntax](http://daringfireball.net/projects/markdown/syntax#p).
 
 ```ruby
   # Here's a comment.##
