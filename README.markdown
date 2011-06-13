@@ -633,18 +633,18 @@ Strings
 #### Good
 
 ```ruby
-  lonely = 1
-  phrase = "#{number} is the loneliest number..."
+  lonely        = 1
+  phrase_start  = "#{number} is the loneliest number..."
 ```
 ```ruby
-  phrase = "that you'll ever do."
+  phrase_end = "that you'll ever do."
 ```
 
 #### Bad
 
 ```ruby
   number = 1
-  start  = "1 is the lonieliest number..."
+  phrase = "1 is the lonieliest number..."
 ```
 
 
