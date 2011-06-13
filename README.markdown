@@ -626,7 +626,8 @@ Comments
 --------
 
 * Comments longer than a word are capitalized and use punctuation.
-  Use two spaces after periods.
+  *Never* use two spaces after periods. If you "think this is wrong",
+  [let me Google that for you](http://lmgtfy.com/?q=two+spaces+after+period).
 
 * Avoid superfluous comments.
 
