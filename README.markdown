@@ -622,6 +622,32 @@ Naming
   size over length.
 
 
+Strings
+--------
+
+* Don't use a string if a symbol works just as well.
+
+* Only use double quotes if there's interpolation or
+  the need for a single quote.
+
+#### Good
+
+```ruby
+  lonely = 1
+  phrase = "#{number} is the loneliest number..."
+```
+```ruby
+  phrase = "that you'll ever do."
+```
+
+#### Bad
+
+```ruby
+  number = 1
+  start  = "1 is the lonieliest number..."
+```
+
+
 Comments
 --------
 
