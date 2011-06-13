@@ -86,7 +86,7 @@ Person.create(:first_name => 'John', #'Adam',
 ```
 
 
-### Use _one item per line_ when a list items exceeds 80 characters
+### Use _one item per line_ when a list of items exceeds 80 characters
 
 From the 80 character per line rule
 
