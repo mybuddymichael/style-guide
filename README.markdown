@@ -373,6 +373,14 @@ end
 def sum(a, b); a + b; end;
 ```
 
+#### Worse
+
+```ruby
+def sum(a, b);
+  a + b;
+end;
+```
+
 ### Use spaces around { and before }
 
 ### No spaces after `(` and before `)`
