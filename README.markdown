@@ -359,6 +359,20 @@ definition = { awesome:"extremely impressive or daunting" }
 
 ### _No semicolons_
 
+#### Good
+
+```ruby
+def sum(a, b)
+  a + b
+end
+```
+
+#### Bad
+
+```ruby
+def sum(a, b); a + b; end;
+```
+
 ### Use spaces around { and before }
 
 ### No spaces after `(` and before `)`
