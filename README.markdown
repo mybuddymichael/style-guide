@@ -343,7 +343,19 @@ end
 elements = [1,2,3,21,45]
 ```
 
-### Use _space after colons_
+### Use space after colons in 1.9 hash syntax
+
+#### Good
+
+```ruby
+definition = { awesome: "extremely impressive or daunting" }
+```
+
+#### Bad
+
+```ruby
+definition = { awesome:"extremely impressive or daunting" }
+```
 
 ### _No semicolons_
 
